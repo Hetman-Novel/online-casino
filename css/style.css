@@ -2148,12 +2148,16 @@ body._touch .header .menu__list > li._active .menu__arrow {
 
 .overlay {
   bottom: -28px;
-  left: 50%;
   height: auto;
+  left: 0;
   position: absolute;
-  transform: translateX(-50%);
+  right: 0;
   width: 100%;
   z-index: -1;
+}
+
+.overlay img {
+  width: 100%;
 }
 
 .play-safely-responsibly {
@@ -2184,6 +2188,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
   align-items: center;
   display: flex;
   justify-content: center;
+  min-width: 60px;
   padding: 8.5px 12px;
 }
 
