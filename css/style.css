@@ -3204,6 +3204,10 @@ body._touch .header .menu__list > li._active .menu__arrow {
     display: none;
   }
 
+  .blocks__column.block-logo .blocks__arrow {
+    right: 1px;
+  }
+
   .blocks__column.block-logo .blocks__arrow.dekstop {
     display: none;
   }
