@@ -1577,8 +1577,24 @@ a {
 
 .header__block-logo {
   margin-right: auto;
-  min-width: 192px;
-  max-width: 192px;
+  min-width: 240px;
+  max-width: 240px;
+}
+
+.header__block-logo img {
+  height: 22px;
+  flex: 0 0 22px;
+  margin-right: 4px;
+  width: 22px;
+}
+
+.header__block-logo a {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header__block-logo a span {
+  color: #ffc029;
 }
 
 .header .n_container {
@@ -2665,7 +2681,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
   .header__block-logo {
     margin-left: auto;
     position: relative;
-    transform: translateX(-25px);
+    transform: translateX(-10px);
     z-index: 6;
   }
 
@@ -3464,7 +3480,7 @@ body._touch .header .menu__list > li._active .menu__arrow {
 
 @media screen and (max-width: 480.98px) {
   .header__block-logo {
-    transform: translateX(0);
+    transform: translateX(5px);
   }
 }
 
