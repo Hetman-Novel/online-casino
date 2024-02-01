@@ -1487,6 +1487,7 @@ a {
 }
 
 .page {
+  overflow: hidden;
   position: relative;
 }
 
@@ -1544,6 +1545,17 @@ a {
   transform: translateY(-100%);
   top: 43px;
   z-index: -1;
+}
+
+.page .wrap-left-top-element {
+  transform: translate(-930px, 0);
+  top: 54px;
+  z-index: -1;
+}
+
+.page .wrap-right-top-element {
+  transform: translate(938px, 0);
+  top: 23px;
 }
 
 .page .wrap-left-top-el-page-mobile,
